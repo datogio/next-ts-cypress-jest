@@ -7,6 +7,7 @@ module.exports = {
     "<rootDir>/coverage",
     "<rootDir>/dist",
   ],
+  modulePathIgnorePatterns: ["cypress"],
   moduleDirectories: ["<rootDir>/node_modules", "<rootDir>/src"],
   moduleNameMapper: {
     "@src/(.*)": "<rootDir>/src/$1",
